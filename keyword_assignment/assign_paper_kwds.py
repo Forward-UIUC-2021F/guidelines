@@ -15,9 +15,8 @@ import mysql.connector
 import numpy.linalg as la
 from sklearn.cluster import DBSCAN
 
-sys.path.insert(1, '../utils')
-from trie_utils import construct_trie, construct_re, get_matches
-from setup_utils import read_pickle_file, write_pickle_data, get_top_k, concat_paper_info, standardize_non_ascii
+from trie import construct_trie, construct_re, get_matches
+from utils import read_pickle_file, write_pickle_data, get_top_k, concat_paper_info, standardize_non_ascii
 
 
 
