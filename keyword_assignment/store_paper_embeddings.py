@@ -1,3 +1,13 @@
+"""
+Generating Sentence-BERT embeddings (paper abstracts + title):
+    Size: 100, time: 36.693s
+    Size: 200, time: 66.781s
+    Size: 1000, time: 273.237s
+    Size 58883, est time: 15381s (~4 hrs)
+    Size: 445715, time: 124014.893s (~34.4 hrs)
+
+"""
+
 import sys
 import torch
 import pickle
